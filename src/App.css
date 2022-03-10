@@ -1,0 +1,18 @@
+:root {
+  --padding-lg: 20px;
+  --padding-md: 10px;
+  --padding-sm: 5px;
+}
+
+.light-theme {
+  --background: #f1f1f1;
+}
+
+.dark-theme {
+  --background: #222222;
+}
+
+.background {
+  margin: 0;
+  background-color: var(--background);
+}
